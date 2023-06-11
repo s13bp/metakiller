@@ -33652,7 +33652,7 @@ vec3 applyLevels(vec3 inPixel) {
             e.type === li ? (e.minFilter = Lt, e.magFilter = Lt, e.generateMipmaps = !1, en.uniforms.posTex.value = e) : Q8(e), t0(s)
         }, e => {
             aR = e.loaded / e.total
-        }), en.uniforms.color.value = Jx.load("/assets/textures/color-tiles.png", e => {
+        }), en.uniforms.color.value = Jx.load("/assets/textures/zagga.png", e => {
             e.minFilter = Lt, e.magFilter = Lt, t0(s)
         }), en.uniforms.scaleTex.value = Jx.load("/assets/textures/scale-texture.png", e => {
             e.type = li, e.minFilter = Lt, e.magFilter = Lt, t0(s)
